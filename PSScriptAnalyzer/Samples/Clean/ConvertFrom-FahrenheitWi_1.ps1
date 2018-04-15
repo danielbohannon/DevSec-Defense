@@ -1,0 +1,1 @@
+## From Windows PowerShell Cookbook (O'Reilly)\n## by Lee Holmes (http://www.leeholmes.com/guide)\n\nparam([double] $Fahrenheit)\n\nSet-StrictMode -Version Latest\n\n## Convert it to Celsius\n$celsius = $fahrenheit - 32\n$celsius = $celsius / 1.8\n\n## Output the answer\n"$fahrenheit degrees Fahrenheit is $celsius degrees Celsius."
